@@ -31,5 +31,7 @@ header #avatar img
 }
 header #logo img
 {
+	border-right: 1px solid white;
+	padding-right: 0.5em;
 	width: 52px
 }
