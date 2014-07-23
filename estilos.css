@@ -11,7 +11,7 @@ body
 footer
 {
 	color: rgba(255,255,255,0.7);
-	background: #22BCE0	;
+	background: #22BCE0;
 	text-align: center;	
 	padding: 1em;
 }
@@ -50,7 +50,7 @@ header h1
 	font-weight: normal;
 	margin: 0.2em,70px,0,0;
 }
-header #avatar img
+header #avatar
 {
 	margin: 0.5em 0.5em 0 0;
 	position: absolute;
@@ -72,8 +72,10 @@ header #logo img
 nav
 {
 	background: #80BCA3;
+	box-shadow: rgba(0,0,0,0.5) 0px 0px 10px;
 	padding: 0 0.5em;
 	position: relative;
+	text-align: center;
 }
 nav ul #Publicar_nav
 {
@@ -116,8 +118,9 @@ nav ul li a
 {
 	background: white;
 	border-bottom: 3px solid #22BCE0;
+	box-shadow: rgba(0,0,0,0.5) 0px 3px 10px;
 	margin-bottom: 3em;
-	min-height: 96px;
+	min-height: 128px;
 	position: relative;
 }
 #contenido .item .autor_item
@@ -146,11 +149,12 @@ nav ul li a
 #contenido .item .imagen_item
 {
 	float: left;
-	margin: 0, 1em, 0, 0;
+	margin: 0 1em 0 0;
 }
 #contenido .item .imagen_item img
 {
 	width: 96px;
+	height: 128px;
 }
 #contenido .item .titulo_item
 {
@@ -167,12 +171,13 @@ nav ul li a
 {
 	background: white;
 	border-radius: 0 0 0.5em 0.5em;
-	left: 5%;
+	box-shadow: rgba(0,0,0,0.5) 0px 3px 10px;
+	left: 2%;
 	margin-top: 3px;
 	padding: 0.2em 0.5em;
 	position: absolute;
 	top: 100%;
-	width:90%;
+	width: 95%;
 }
 #contenido .item .votacion .comentarios_item,
 #contenido .item .votacion .guardar_item
