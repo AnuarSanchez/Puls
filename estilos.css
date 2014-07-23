@@ -124,6 +124,7 @@ nav ul li a
 }
 #contenido .item .datos_item
 {
+	margin: 1em 1em 0 0;
 	text-align: right;
 }
 #contenido .item .datos_item .fecha_item
