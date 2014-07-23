@@ -45,3 +45,42 @@ header #logo img
 	padding-right: 0.5em;
 	width: 52px
 }
+nav
+{
+	background: #80BCA3;
+	padding: 0 0.5em;
+	position: relative;
+}
+nav ul #Publicar_nav
+{
+	position: absolute;
+	top: -0.5em;
+	right: 0;
+}
+nav ul #Publicar_nav a
+{
+	background: #22BCE0;
+	border-radius: 5em;
+	box-shadow: rgba(0,0,0,0.5) 5px 5px 20px;
+	padding: 0.8em;
+	font-style: italic;
+	text-decoration: none;
+	text-shadow: rgba(0,0,0,0.5) 2px 2px 5px;
+}
+nav ul
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+nav ul li 
+{
+	display: inline-block;
+	margin: 0 1em 0 0;
+}
+nav ul li a 
+{
+	color: white;
+	display: block;
+	padding: 0.5em 0;
+}
