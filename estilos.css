@@ -21,13 +21,13 @@ header figure
 }
 header h1
 {
-	margin: 0.5em 0.5em 0 0;
 	font-size: 1.2em;
 	font-weight: normal;
 	margin: 0.2em,70px,0,0;
 }
 header #avatar img
 {
+	margin: 0.5em 0.5em 0 0;
 	position: absolute;
 	right: 0;
 	top:0;
