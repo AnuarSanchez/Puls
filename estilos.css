@@ -152,12 +152,12 @@ nav ul li a
 {
 	width: 96px;
 }
-#contenido .item .titula_item
+#contenido .item .titulo_item
 {
 	font-size: 1.2em;
 	font-style: italic;
 }
-#contenido .item .titula_item a
+#contenido .item .titulo_item a
 {
 	color: #444;
 	text-decoration: none;
