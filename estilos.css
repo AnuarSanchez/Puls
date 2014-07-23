@@ -8,6 +8,30 @@ body
 	font: Arial;
 	font-size: 16px;
 }
+footer
+{
+	color: white;
+	background: #22BCE0	;
+	text-align: center;	
+	padding: 1em;
+}
+footer p:first-child
+{
+	margin-bottom: 0;
+
+}
+footer p:last-child
+{
+	margin-top: 0;
+}
+footer p:last-child:after
+{
+	content: " -";
+}
+footer p:last-child:before
+{
+	content: "- ";
+}
 header
 {
 	background: #343B54;
