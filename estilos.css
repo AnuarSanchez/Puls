@@ -2,8 +2,9 @@ a
 {
 	color: #22BCE0;
 }
-
 body
 {
 	background: #EEEEEE;
+	font: "Arial";
+	font-size: 16px;
 }
