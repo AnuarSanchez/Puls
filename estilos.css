@@ -116,7 +116,9 @@ nav ul li a
 {
 	background: white;
 	border-bottom: 3px solid #22BCE0;
-	overflow: hidden;
+	margin-bottom: 3em;
+	min-height: 96px;
+	position: relative;
 }
 #contenido .item .autor_item
 {
@@ -162,5 +164,17 @@ nav ul li a
 }
 #contenido .item .votacion
 {
-
+	background: white;
+	border-radius: 0 0 0.5em 0.5em;
+	left: 5%;
+	margin-top: 3px;
+	padding: 0.2em 0.5em;
+	position: absolute;
+	top: 100%;
+	width:90%;
+}
+#contenido .item .votacion .comentarios_item,
+#contenido .item .votacion .guardar_item;
+{
+	float: right;
 }
